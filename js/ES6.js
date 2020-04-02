@@ -11,7 +11,6 @@ class Options{
     newDiv() {
         let div = document.createElement('div'); 
         div.textContent = 'Hello!';
-        
         div.style.cssText = `width: ${this.width}px; 
                     height: ${this.height}px; 
                     background: ${this.bg}; 
