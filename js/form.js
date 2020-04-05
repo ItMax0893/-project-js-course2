@@ -43,7 +43,7 @@
                 }else if(request.readyState === 4 && request.status == 200){
                     statusMessage.innerHTML = message.succes;
                 }else{
-                    request.innerHTML = message.failure;
+                    statusMessage.innerHTML = message.failure;
                 }
             });
             // после отправки очищаем input
